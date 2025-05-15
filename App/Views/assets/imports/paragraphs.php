@@ -31,6 +31,9 @@ Você não está fraco. Está sobrecarregado.</b></h3><br>
 </center>
   </div>
 </section>
+<div class="gradientb">
+  
+</div>
 
 <div class="progress-bar" id="progressBar"></div>
 
@@ -46,7 +49,7 @@ Você não está fraco. Está sobrecarregado.</b></h3><br>
 
         
     </div>
-    <div class="hormonios-text" id="paragrafo2">
+    <div class="hormonios-text">
       <p class="paragraph" id="paragraph2"> <span class="titulo">Melatonina</span> A luz azul das telas inibe a produção de melatonina, dificultando o sono e afetando o ciclo circadiano. </p>
     </div>
     <div class="hormonios-text">

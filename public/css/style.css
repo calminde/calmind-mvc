@@ -22,7 +22,6 @@ body {
         align-items: center;
         position: relative;
       }
-
       .sticky-container {
         position: sticky;
         top: 0;
@@ -63,9 +62,7 @@ body {
         margin-left: 80px;
       }
 
-      #paragrafo2 {
-        margin-left: 20px;
-      }
+      
 
 
 
@@ -85,7 +82,7 @@ body {
 		left: 0;
 		object-fit: cover;
 		width: 100%;
-		filter: brightness(0.4);
+		filter: brightness(0.50);
 	  }
 	  .your-mind .calm{
 		position: absolute;
@@ -97,7 +94,7 @@ body {
 	  .your-mind h1{
 		   font-family: "Cal Sans", sans-serif;
   			font-weight: 400;
-		  font-style: normal;	
+		  font-style: normal;
 	  }
 	  .your-mind h3{
 		font-family: "Montserrat", sans-serif;font-weight: 500;
@@ -318,11 +315,13 @@ body {
       .paragraph {
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 0px 20px;
         opacity: 0;
         transform: translateY(50px);
         transition: opacity 0.5s, transform 0.5s;
       }
+	 
+	
       
 
       .paragraph.visible {
