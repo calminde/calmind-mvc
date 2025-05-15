@@ -16,7 +16,7 @@ body {
       }
 
       .section {
-		margin-top: 10%;
+		margin-top: 15%;
         height: 95vh;
         justify-content: center;
         align-items: center;
@@ -42,8 +42,10 @@ body {
         text-align: center;
         align-items: center;
         justify-content: center;
-      }
-
+	  }
+	  .btn-mind:active{
+		transition: 1s;
+	  }
       .testtt {
         display: grid;
             grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */

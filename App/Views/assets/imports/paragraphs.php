@@ -9,7 +9,7 @@
     <br><b><h3>A dopamina em excesso sequestra seu foco, sua energia e até sua motivação.
 Você não está fraco. Está sobrecarregado.</b></h3><br>
 <center>
-<button class="button">
+<a class="btn-mind" href="#progressBar"><button class="button">
   <span class="title"> Conhecer minha mente</span>
   <div class="padding-left hide">
     <div class="padding-left-line">
@@ -27,7 +27,7 @@ Você não está fraco. Está sobrecarregado.</b></h3><br>
   <div class="border hide">
     <span class="border-text">Repositórios</span>
   </div>
-</button>
+</button></a>
 </center>
   </div>
 </section>
@@ -35,7 +35,7 @@ Você não está fraco. Está sobrecarregado.</b></h3><br>
 <div class="progress-bar" id="progressBar"></div>
 
   
-  <section class="section">
+  <section class="section" id="section">
     <div class="testtt">
     <div class="hormonios-text">
       <p class="paragraph" id="paragraph1"> <span class="titulo">Dopamina</span> A Dopamina conhecida como "o hormônio do prazer" vicia nas redes sociais

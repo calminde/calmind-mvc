@@ -122,16 +122,16 @@
     let scrollPercentage = 0;
 
     // Configurações de quando os parágrafos aparecem (em % do scroll total)
-    const paragraph1AppearAt = 0.50; // 25% do scroll
-    const paragraph1HideAt = 0.53;    // 60% do scroll (quando o parágrafo 1 aparece)
-    const paragraph2AppearAt = 0.53;  // 60% do scroll
-    const paragraph2HideAt = 0.57;    // 60% do scroll (quando o parágrafo 2 aparece)
-    const paragraph3AppearAt = 0.57;  // 60% do scroll
-    const paragraph3HideAt = 0.62;    // 60% do scroll (quando o parágrafo 3 aparece)
-    const paragraph4AppearAt = 0.62;  // 60% do scroll
-    const paragraph4HideAt = 0.67;    // 60% do scroll (quando o parágrafo 3 aparece)
-    const paragraph5AppearAt = 0.67;  // 60% do scroll
-    const paragraph5HideAt = 0.67;    // 60% do scroll (quando o parágrafo 3 aparece)
+    const paragraph1AppearAt = 0.56; // 25% do scroll
+    const paragraph1HideAt = 0.63;    // 60% do scroll (quando o parágrafo 1 aparece)
+    const paragraph2AppearAt = 0.63;  // 60% do scroll
+    const paragraph2HideAt = 0.67;    // 60% do scroll (quando o parágrafo 2 aparece)
+    const paragraph3AppearAt = 0.67;  // 60% do scroll
+    const paragraph3HideAt = 0.71;    // 60% do scroll (quando o parágrafo 3 aparece)
+    const paragraph4AppearAt = 0.71;  // 60% do scroll
+    const paragraph4HideAt = 0.76;    // 60% do scroll (quando o parágrafo 3 aparece)
+    const paragraph5AppearAt = 0.77;  // 60% do scroll
+    const paragraph5HideAt = 0.81;    // 60% do scroll (quando o parágrafo 3 aparece)
 
     window.addEventListener('scroll', () => {
       const scrollY = window.scrollY;
