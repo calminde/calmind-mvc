@@ -119,6 +119,10 @@
     const paragraph1 = document.getElementById('paragraph1');
     const paragraph2 = document.getElementById('paragraph2');
     const paragraph3 = document.getElementById('paragraph3');
+    const paragraph4 = document.getElementById('paragraph4');
+    const paragraph5 = document.getElementById('paragraph5');
+
+
     let scrollPercentage = 0;
 
     // Configurações de quando os parágrafos aparecem (em % do scroll total)
@@ -137,10 +141,12 @@
       const scrollY = window.scrollY;
       const scrollHeight = document.body.scrollHeight - window.innerHeight;
       scrollPercentage = scrollY / scrollHeight;
-
+      let telaLargura = window.innerWidth;
       // Controla a rotação do objeto
       targetRotation = scrollPercentage * Math.PI * 4; // 2 rotações completas
 
+   
+      
       // Mostra/oculta parágrafos conforme a posição do scroll
       if (scrollPercentage >= paragraph1AppearAt && scrollPercentage < paragraph1HideAt) {
         paragraph1.classList.add('visible');
@@ -185,6 +191,16 @@
         paragraph4.classList.remove('visible');
       } else {
         paragraph5.classList.remove('visible');
+      }
+
+      if (telaLargura <= 768){
+        paragraph1.classList.remove('visible');
+        paragraph2.classList.remove('visible');
+        paragraph3.classList.remove('visible');
+        paragraph4.classList.remove('visible');
+        paragraph5.classList.remove('visible');
+
+
       }
     });
 

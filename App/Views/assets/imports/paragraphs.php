@@ -31,9 +31,7 @@ Você não está fraco. Está sobrecarregado.</b></h3><br>
 </center>
   </div>
 </section>
-<div class="gradientb">
-  
-</div>
+
 
 <div class="progress-bar" id="progressBar"></div>
 
