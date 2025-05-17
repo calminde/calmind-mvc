@@ -5,9 +5,10 @@
     </video>
 
   <div class="calm">
-    <h1>Acalme sua mente, o problema não é você e sim o vício</h1>
-    <br><b><h3>A dopamina em excesso sequestra seu foco, sua energia e até sua motivação.
-Você não está fraco. Está sobrecarregado.</b></h3><br>
+    <div class="calm-texts">
+    <h3 class="calmh3">Acalme sua mente, o problema não é você e sim o vício</h1>
+    <br><b><h5 class="calmh5">A dopamina em excesso sequestra seu foco, sua energia e até sua motivação.
+Você não está fraco. Está sobrecarregado.</b></h5></div><br>
 <center>
 <a class="btn-mind" href="#progressBar"><button class="button">
   <span class="title"> Conhecer minha mente</span>

@@ -111,10 +111,6 @@
 
 
 
-
-
-
-    // Variáveis de controle
     let targetRotation = 0;
     const paragraph1 = document.getElementById('paragraph1');
     const paragraph2 = document.getElementById('paragraph2');
@@ -125,29 +121,26 @@
 
     let scrollPercentage = 0;
 
-    // Configurações de quando os parágrafos aparecem (em % do scroll total)
-    const paragraph1AppearAt = 0.56; // 25% do scroll
-    const paragraph1HideAt = 0.63;    // 60% do scroll (quando o parágrafo 1 aparece)
-    const paragraph2AppearAt = 0.63;  // 60% do scroll
-    const paragraph2HideAt = 0.67;    // 60% do scroll (quando o parágrafo 2 aparece)
-    const paragraph3AppearAt = 0.67;  // 60% do scroll
-    const paragraph3HideAt = 0.71;    // 60% do scroll (quando o parágrafo 3 aparece)
-    const paragraph4AppearAt = 0.71;  // 60% do scroll
-    const paragraph4HideAt = 0.76;    // 60% do scroll (quando o parágrafo 3 aparece)
-    const paragraph5AppearAt = 0.77;  // 60% do scroll
-    const paragraph5HideAt = 0.81;    // 60% do scroll (quando o parágrafo 3 aparece)
+    const paragraph1AppearAt = 0.56; 
+    const paragraph1HideAt = 0.63;  
+    const paragraph2AppearAt = 0.63;  
+    const paragraph2HideAt = 0.67;    
+    const paragraph3AppearAt = 0.67;  
+    const paragraph3HideAt = 0.71;    
+    const paragraph4AppearAt = 0.71;  
+    const paragraph4HideAt = 0.76;    
+    const paragraph5AppearAt = 0.77;  
+    const paragraph5HideAt = 0.81;    
 
     window.addEventListener('scroll', () => {
       const scrollY = window.scrollY;
       const scrollHeight = document.body.scrollHeight - window.innerHeight;
       scrollPercentage = scrollY / scrollHeight;
       let telaLargura = window.innerWidth;
-      // Controla a rotação do objeto
       targetRotation = scrollPercentage * Math.PI * 4; // 2 rotações completas
 
    
       
-      // Mostra/oculta parágrafos conforme a posição do scroll
       if (scrollPercentage >= paragraph1AppearAt && scrollPercentage < paragraph1HideAt) {
         paragraph1.classList.add('visible');
       window.addEventListener('scroll', () => {
@@ -160,48 +153,32 @@
           brain.rotation.x = Math.sin(scrollPercentage * 0.05) * 0.5;
         }
       });
-      } else {
-        paragraph1.classList.remove('visible');
-      }
+      } 
 
       if (scrollPercentage >= paragraph2AppearAt) {
         paragraph2.classList.add('visible');
-        // Garante que o parágrafo 1 fica oculto quando o 2 aparece
-        paragraph1.classList.remove('visible');
       } else {
         paragraph2.classList.remove('visible');
       }
       if (scrollPercentage >= paragraph3AppearAt) {
         paragraph3.classList.add('visible');
-        // Garante que o parágrafo 1 fica oculto quando o 2 aparece
-        paragraph2.classList.remove('visible');
+        
       } else {
         paragraph3.classList.remove('visible');
       }
       if (scrollPercentage >= paragraph4AppearAt) {
         paragraph4.classList.add('visible');
-        // Garante que o parágrafo 1 fica oculto quando o 2 aparece
-        paragraph3.classList.remove('visible');
+        
       } else {
         paragraph4.classList.remove('visible');
       }
       if (scrollPercentage >= paragraph5AppearAt) {
         paragraph5.classList.add('visible');
-        // Garante que o parágrafo 1 fica oculto quando o 2 aparece
-        paragraph4.classList.remove('visible');
       } else {
         paragraph5.classList.remove('visible');
       }
 
-      if (telaLargura <= 768){
-        paragraph1.classList.remove('visible');
-        paragraph2.classList.remove('visible');
-        paragraph3.classList.remove('visible');
-        paragraph4.classList.remove('visible');
-        paragraph5.classList.remove('visible');
-
-
-      }
+      
     });
 
 

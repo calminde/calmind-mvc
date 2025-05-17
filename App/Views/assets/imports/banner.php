@@ -1,5 +1,14 @@
 <section class="banner" data-scroll-index='0'>
+
+
+  
+
     <div class="banner-overlay">
+
+      <video autoplay muted loop>
+      <source src="/images/background.mp4">
+    </video>
+    
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-12">
@@ -13,7 +22,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12"> <img src="images/celular-app.png" class="img-fluid wow fadeInUp" /> </div>
+          <div class="col-md-4 col-sm-12"> <img src="images/celular-app.png" id="appimg" class="img-fluid wow fadeInUp" /> </div>
         </div>
       </div>
     </div>

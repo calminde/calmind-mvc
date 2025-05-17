@@ -13,7 +13,7 @@
               <div class="col-md-4">
                 <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring"
                     aria-hidden="true"></i>
-                  <h5>Sistema de Recompensa e Dopamina
+                  <h5>Sistema de Recompensa
                   </h5>
                   <p>Toda vez que você recebe uma curtida ou mensagem, seu cérebro libera dopamina, o que gera uma
                     sensação de prazer e bem-estar. Isso cria um ciclo de repetição: você volta para o app em busca

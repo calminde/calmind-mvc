@@ -1,12 +1,67 @@
 @media (max-width:768px) {
-    body,html{
-        background-color: antiquewhite;
-    }
+    
     #section {
         display: none !important;
     }
-
+    #appimg{
+        width: 200px;
+        
+    }
+    .banner-overlay{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        background-image: none;
+        
+    }
+    .banner-overlay video{
+        top: 0;
+		left: 0;
+		object-fit:cover;
+		width: 100%;
+		height:100vh;
+        filter: brightness(0.4);
+    }
+    .banner .container{
+        position:absolute;
+		z-index: 1;
+		margin: 0 auto;
+    }
+    .your-mind h3{
+        font-size: 2rem;
+    }
+    .calmh3 .calmh5{
+        text-align: left;
+        
+        padding-left: 20px;
+    }
+    .calm-texts{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .calm .button{
+        width: 63%;
+        float:left;
+    }
+    
+    
 }
+
+@media screen and (min-width: 1400px) {
+  .banner video{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+  .banner video{
+    display: none !important;
+  }
+}
+
 
 @media all and (max-width:991px) {
     .navbar .navbar-collapse {
