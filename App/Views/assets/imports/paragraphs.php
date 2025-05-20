@@ -32,7 +32,9 @@ Você não está fraco. Está sobrecarregado.</b></h5></div><br>
 </center>
   </div>
 </section>
-
+<div class="howmind">
+  <h4>Como tudo funciona?</h4>
+</div>
 
 <div class="progress-bar" id="progressBar"></div>
 

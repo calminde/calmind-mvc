@@ -72,14 +72,20 @@
   <!-------Features End------->
 
   <!-------Download End------->
+  <div id="particles-container"></div>
   <section class="download section-padding" data-scroll-index="4">
-    <div class="container">
+  
+  <div class="border-footer">
+  <div class="container">
+
       <div class="row">
         <div class="col-md-12">
           <div class="sectioner-header text-center white">
-            <h3>Download Calmind</h3>
+            <div class="content-footer">
+            <img src="./images/logo.png">
             <span class="line"></span>
-            <p class="white">Clique no botão abaixo e baixe AGORA Calmind e fique com a sua saúde mental em dia!</p>
+<h2>Você ainda tem tempo para escapar disso.</h2>
+<p>Baixe agora</p>
           </div>
         </div>
         <div class="col-md-12">
@@ -87,8 +93,10 @@
             <ul>
               <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
             </ul>
+</div></div>
           </div>
         </div>
       </div>
-    </div>
+      
   </section>
+  
