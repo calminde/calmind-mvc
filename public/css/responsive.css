@@ -1,7 +1,13 @@
 @media (max-width:768px) {
     
-    #section {
-        display: none !important;
+    .no-mobile {
+        display: none;
+    }
+    .howmind {
+        display: none;
+    }
+    .border-footer{
+        background:transparent;
     }
     #appimg{
         width: 200px;
@@ -23,7 +29,7 @@
 		object-fit:cover;
 		width: 100%;
 		height:100vh;
-        filter: brightness(0.2);
+        filter: brightness(0.32);
     }
     .banner .container{
         position:absolute;

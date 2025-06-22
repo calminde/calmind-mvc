@@ -69,9 +69,22 @@
       </div>
     </div>
   </section>
-  <!-------Features End------->
+<section id="caixas-misteriosas" class="mystery-section">
+  <div class="container-box">
+    <div class="texto">
+      <h2>Caixas Misteriosas</h2>
+      <p>
+        Todo mês, uma nova experiência para sua mente e bem-estar.<br />
+        <strong>Assine agora por apenas <span class="preco">R$ 150,00</span>/mês</strong>
+      </p>
+      <a href="#assinar" class="botao-assinar">Quero minha caixa</a>
+    </div>
+    <div class="imagem">
+      <img src="./images/caixa.png" alt="Caixa Misteriosa" class="imagem-caixa" />
+    </div>
+  </div>
+</section>
 
-  <!-------Download End------->
   <div id="particles-container"></div>
   <section class="download section-padding" data-scroll-index="4">
   

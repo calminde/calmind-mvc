@@ -123,13 +123,13 @@
 
     const paragraph1AppearAt = 0.56; 
     const paragraph1HideAt = 0.63;  
-    const paragraph2AppearAt = 0.61;  
+    const paragraph2AppearAt = 0.58;  
     const paragraph2HideAt = 0.67;    
-    const paragraph3AppearAt = 0.63;  
+    const paragraph3AppearAt = 0.60;  
     const paragraph3HideAt = 0.71;    
-    const paragraph4AppearAt = 0.65;  
+    const paragraph4AppearAt = 0.62;  
     const paragraph4HideAt = 0.76;    
-    const paragraph5AppearAt = 0.67;  
+    const paragraph5AppearAt = 0.64;  
     const paragraph5HideAt = 0.81;    
 
     window.addEventListener('scroll', () => {

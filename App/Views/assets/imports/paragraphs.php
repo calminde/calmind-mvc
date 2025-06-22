@@ -35,6 +35,8 @@ Você não está fraco. Está sobrecarregado.</b></h5></div><br>
 <div class="howmind">
   <h4>Como tudo funciona?</h4>
 </div>
+<div class="no-mobile">
+
 
 <div class="progress-bar" id="progressBar"></div>
 
@@ -76,4 +78,4 @@ Você não está fraco. Está sobrecarregado.</b></h5></div><br>
         urgente de voltar ao celular para aliviar esse desconforto.
       </p>
     </div>
-  </div>
+  </div></div>

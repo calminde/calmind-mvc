@@ -2,16 +2,16 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-
-
 $dispatcher = FastRoute\simpleDispatcher(require __DIR__ . '/../config/routes.php');
 
 $httpMethod = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
 
+
 $uri = rawurldecode(parse_url($uri, PHP_URL_PATH));
 
 $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
+
 switch ($routeInfo[0]) {
     case FastRoute\Dispatcher::NOT_FOUND:
         echo '404 - Página não encontrada';
@@ -28,6 +28,8 @@ switch ($routeInfo[0]) {
 
         (new $controller)->$method($vars);
 
-        require_once __DIR__ . '/../App/Views/template/footer.php';
+        if ($uri !== '/login') {
+            require_once __DIR__ . '/../App/Views/template/footer.php';
+        }
         break;
 }

@@ -433,6 +433,29 @@ h6 {
 .nav-scroll .active {
 	position: relative;
 }
+
+.navbar .btn-login {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 3px 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .btn-login:hover {
+  background-color: #0056b3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .btn-login i {
+  font-size: 16px;
+}
+
 .banner {
 	background-image: url(../images/hero-bg.png);
 	padding:100px 0px;
@@ -705,11 +728,81 @@ input {
 canvas{ 
   display: block;
 }
+
+.mystery-section {
+  background: linear-gradient(135deg, #1e1b2e, #2a1e4a);
+  color: #e0d7ff;
+  padding: 60px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.texto {
+  flex: 1 1 300px;
+}
+
+.imagem {
+  flex: 1 1 300px;
+  text-align: center;
+  margin-left: 7%;
+}
+
+.mystery-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #bb86fc;
+}
+
+.mystery-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.mystery-section .preco {
+  color: #e6baff;
+  font-weight: bold;
+}
+
+.botao-assinar {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #7c3aed;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.botao-assinar:hover {
+  background-color: #9f51f4;
+  text-decoration: none;
+  color: white;
+}
+
+.imagem-caixa {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+
 .border-footer{
+	background: linear-gradient(to right, rgb(83, 1, 160), rgb(9, 0, 133));
 	width: 70%;
-	background-color: #020e48;
-	height: 60vh;
-	border-radius: 400px;
+	height: 75vh;
+	border-radius: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;

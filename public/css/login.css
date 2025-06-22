@@ -1,0 +1,23 @@
+/* Alinhar os inputs verticalmente */
+.username {
+  top: 0;
+}
+
+#password {
+  top: 4.5rem;
+}
+
+#password + label {
+  top: 4.5rem;
+}
+
+#password + label + svg {
+  top: 4.5rem;
+}
+
+/* Botão menor e centralizado */
+#submit {
+  margin-top: 9rem;
+  width: 60%;
+  left: 20%;
+}
