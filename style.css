@@ -64,15 +64,21 @@ body {
       #paragrafo2 {
         margin-left: 20px;
       }
-
+	  .c{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
 
 	  .howmind{
 	
 		background-color: rgb(38, 13, 38);
-		height: 13vh;
+		height: 10vh;
+		text-transform: uppercase;
 		border-radius: 100px;
 		display: flex;
 		align-items: center;
+		width: 800px;
 		justify-content: center;
 	  }
 
@@ -378,7 +384,9 @@ h6 {
 .navbar .active {
 	color: #007bff !important;
 }
-
+.navbar .navbar-brand {
+    
+}
 .navbar .nav-item {
 	margin: 0 5px;
 	padding: 0;
@@ -817,7 +825,7 @@ canvas{
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #1128a8;
+	background: #110474;
 	color: #ffffff;
 	font-size: 13px;
 	text-align: center;
@@ -937,13 +945,4 @@ i > img {
 	width: 100px;
 	height: 100px;
 	margin-bottom: 10px;
-}
-@media (max-width:1920px){
-	#paragraph2{
-		margin-left:155px;
-		width: 300px;
-	}
-	#paragraph3{
-		margin-left: 0;
-	}
 }
