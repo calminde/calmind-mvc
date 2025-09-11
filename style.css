@@ -64,21 +64,15 @@ body {
       #paragrafo2 {
         margin-left: 20px;
       }
-	  .c{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	  }
+
 
 	  .howmind{
 	
 		background-color: rgb(38, 13, 38);
-		height: 10vh;
-		text-transform: uppercase;
+		height: 13vh;
 		border-radius: 100px;
 		display: flex;
 		align-items: center;
-		width: 800px;
 		justify-content: center;
 	  }
 
@@ -384,9 +378,7 @@ h6 {
 .navbar .active {
 	color: #007bff !important;
 }
-.navbar .navbar-brand {
-    
-}
+
 .navbar .nav-item {
 	margin: 0 5px;
 	padding: 0;
@@ -395,7 +387,7 @@ h6 {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 15px;
 }
 .navbar .nav-item a:hover {
 	color: #007bff;
@@ -403,6 +395,12 @@ h6 {
 .navbar .nav-link {
 	position: relative;
 	padding: 0;
+}
+#logow{
+	width: 310px;
+}
+#appimg{
+	margin-top: 25%;
 }
 .navbar .navbar-toggler {
 	cursor: pointer;
@@ -463,9 +461,9 @@ h6 {
 }
 
 .banner {
-	background-image: url(../images/hero-bg.png);
+	background-image: url(../images/background.png);
 	padding:100px 0px;
-	height: 100vh;
+	height: 130vh;
 	position:relative;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -494,16 +492,18 @@ h6 {
 .banner-text {
 	padding-right:80px;
 	margin:50px 0px 0px;
+	margin-top:200px;
 }
 .banner-text p {
-	margin:40px 0px;
+	margin:20px 0px;
+	font-size: 16px;
 }
 .banner-text ul {
 	list-style: none;
 }
 .banner-text ul li {
 	display: inline-block;
-	margin: 0px 10px 10px 0px;
+	margin: 0px 5px 10px 0px;
 }
 .banner-text ul li a {
 	display: block;
@@ -736,10 +736,13 @@ canvas{
 }
 
 .mystery-section {
-  background: linear-gradient(135deg, #1e1b2e, #2a1e4a);
+  background: linear-gradient(135deg, #061145, #150248);
   color: #e0d7ff;
-  padding: 60px 20px;
+  border-radius: 500px;
+  width: 80vw;
+  margin: auto;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 200px;
 }
 
 .container-box {
@@ -800,7 +803,6 @@ canvas{
   max-width: 100%;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -825,8 +827,8 @@ canvas{
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #110474;
-	color: #ffffff;
+	background: #ffffff;
+	color: #242424;
 	font-size: 13px;
 	text-align: center;
 	padding:15px 0px;
